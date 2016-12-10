@@ -4,7 +4,7 @@ module.exports = {
   entry: './src/run.js',
   output: {
     filename: 'boysenberry.js',
-    path: './public/js'
+    path: './public'
   },
   module: {
     loaders: [

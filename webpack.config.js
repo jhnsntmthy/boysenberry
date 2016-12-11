@@ -1,7 +1,12 @@
 var FlowBabelWebpackPlugin = require('flow-babel-webpack-plugin');
+const Webpack = require('webpack');
 
 module.exports = {
-  entry: './src/run.js',
+  entry: [
+    // The script refreshing the browser on none hot updates
+    'webpack-dev-server/client?http://localhost:8080',
+    './src/run.js'
+  ],
   output: {
     filename: 'boysenberry.js',
     path: './public'
@@ -19,6 +24,12 @@ module.exports = {
     ]
   },
   plugins: [
-    new FlowBabelWebpackPlugin(),
+    new FlowBabelWebpackPlugin()
   ],
+  devServer: {
+    contentBase: "public",
+    historyApiFallback: true,
+    headers: { "X-Custom-Header": "yes" },
+    stats: { colors: true }
+  }
 }

@@ -1,16 +1,10 @@
 // @flow
 import _ from 'lodash';
-
-var str:string = 'hello world!';
+import $ from 'jquery';
+var str:string = 'hello world!sdfsdf';
 console.log(str);
 
-const component = () => {
-  let element = document.createElement('div');
-
-  /* lodash is required for the next line to work */
-  element.innerHTML = _.map(['Hello','webpack'], (item) => item + ' ');
-
-  return element;
-}
+import component from './play/component_hello' 
 
 document.body.appendChild(component());
+$(document).ready(() => alert('fabulous'));

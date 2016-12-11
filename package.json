@@ -5,14 +5,17 @@
   "main": "run.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "flow": "flow; test $? -eq 0 -o $? -eq 2"
+    "flow": "flow; test $? -eq 0 -o $? -eq 2",
+    "start": "webpack-dev-server --inline"
   },
   "author": "Timothy Johnson",
   "license": "MIT",
   "dependencies": {
+    "jquery": "^3.1.1",
     "lodash": "^4.17.2",
     "most": "^1.1.1",
-    "tape": "^4.6.3"
+    "tape": "^4.6.3",
+    "webpack-dev-server": "^1.16.2"
   },
   "devDependencies": {
     "babel-core": "^6.20.0",

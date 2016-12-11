@@ -1,10 +1,9 @@
 // @flow
 import _ from 'lodash';
 import $ from 'jquery';
-var str:string = 'hello world!sdfsdf';
+var str:string = 'hello world!';
 console.log(str);
 
-import component from './play/component_hello' 
+import component from './play/component_hello'
 
 document.body.appendChild(component());
-$(document).ready(() => alert('fabulous'));

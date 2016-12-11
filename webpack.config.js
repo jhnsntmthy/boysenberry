@@ -1,5 +1,6 @@
 var FlowBabelWebpackPlugin = require('flow-babel-webpack-plugin');
 const Webpack = require('webpack');
+const path = require('path');
 
 module.exports = {
   entry: [
@@ -9,7 +10,8 @@ module.exports = {
   ],
   output: {
     filename: 'boysenberry.js',
-    path: './public'
+    path: path.join(__dirname, 'public'),
+    publicPath: '/'
   },
   module: {
     loaders: [

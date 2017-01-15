@@ -1,16 +1,27 @@
 {
   "global": {
     "menu-where-downloadable-resources-live": "This is where downloadable resources will live for each course.",
+    "close": "Close",
     "menu": {
+      "course-sections": "Course Sections",
+      "sections-short": "Sections",
+      "resources-short": "Resources",
+      "menu": "Menu",
+      "top": "Top",
+      "toggle-navigation": "Toggle Navigation",
       "introduction": "Introduction to Boysenberry",
       "purpose": "Purpose of Boysenberry",
-      "contribute": "Contribute to Boysenberry"
-    }
+      "contribute": "Contribute to Boysenberry",
+      "conclusion": "Conclusion"
+    },
+    "continue-btn": "Continue"
   },
   "introduction": {
     "boysenberry-introduction": "Boysenberry.",
     "algorithm-introduction": "***const*** age = (x) ***=>*** x ***>=*** 40",
-
+    "full-width-column": "This is a full width **column**, all 12 columns. We ***should*** use this one when we need to make a callout of a greater width.",
+    "review-this-flowchart": "Take a minute to review this flow chart. We will cover the specific elements next.",
+    "next-answer-review-question": "Next, let's answer a review question.",
     "continue-btn": "Read the Purpose"
   },
   "purpose": {

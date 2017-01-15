@@ -27,7 +27,7 @@
 	<link rel="manifest" href="/manifest.json">
 
 	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<meta name="apple-mobile-web-app-title" content="TimoJojo">
+	<meta name="apple-mobile-web-app-title" content="Boysenberry">
 
 
 </head>
@@ -50,8 +50,8 @@
       <button type="button" class=
 "navbar-toggle" data-toggle="collapse" data-target=
 "#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle
-navigation</span> Menu
+        <span class="sr-only" data-i18n="global.menu.toggle-navigation">Toggle
+navigation</span> <span data-i18n="global.menu.menu">Menu</span>
       </button>
     </div>
 
@@ -60,10 +60,10 @@ navigation</span> Menu
 "bs-example-navbar-collapse-1">
       <a class="nav-logo">&nbsp;</a>
       <ul class="nav navbar-nav navbar-right">
-        <li><a data-toggle="modal" data-target="#menu">Sections</a></li>
-        <li><a data-toggle="modal" data-target="#resources">Resources</a></li>
-        <li><a class="click-toggle-overlay-menu">MENU</a></li>
-        <li><a id="scoll-to-top">Top</a></li>
+        <li><a data-toggle="modal" data-target="#menu" data-i18n="global.menu.sections-short">Sections</a></li>
+        <li><a data-toggle="modal" data-target="#resources" data-i18n="global.menu.resources-short">Resources</a></li>
+        <li><a class="click-toggle-overlay-menu" data-i18n="global.menu.menu">MENU</a></li>
+        <li><a id="scoll-to-top" data-i18n="global.menu.top">Top</a></li>
       </ul>
     </div>
   </div> <!-- End container-fluid -->
@@ -73,32 +73,20 @@ navigation</span> Menu
 <div class="overlay">
 	<div class="wrap">
 		<ul class="wrap-nav">
-			<li><a href="#"data-nav="bio_timo_jojo">About</a>
+			<li><a href="#" data-i18n="global.menu.course-sections">Sections of this site</a>
 			<ul>
-				<li><a href="#" data-nav="contact_timo_jojo">About Company</a></li>
-				<li><a href="#" data-nav="trump">Designers</a></li>
-				<li><a href="#">Developers</a></li>
-				<li><a href="#" data-nav="trump">Pets</a></li>
+				<li><a href="#" data-nav="introduction" data-i18n="global.menu.introduction">Introduction</a></li>
+				<li><a href="#" data-nav="purpose" data-i18n="global.menu.purpose">Purpose</a></li>
+				<li><a href="#" data-nav="contribute" data-i18n="global.menu.contribute">Contribute</a></li>
+				<li><a href="#" data-nav="404">404</a></li>
 			</ul>
 			</li>
-			<li><a href="#">Services</a>
+			<li><a href="#">More Links</a>
 			<ul>
-				<li><a href="https://www.google.com/">Web Design</a></li>
-				<li><a href="#">Development</a></li>
-				<li><a href="#">Apps</a></li>
-				<li><a href="#">Graphic design</a></li>
-				<li><a href="#">Branding</a></li>
-			</ul>
-			</li>
-			<li><a href="#">Translate</a>
-			<ul>
-        <li><a data-translate-to="en">Translate to English</a></li>
-        <li><a data-translate-to="fr">Traduire en français</a></li>
-        <li><a data-translate-to="de">Übersetzen auf Deutsch</a></li>
-        <li><a data-translate-to="be">Перавесці на беларускай мове</a></li>
-        <li><a data-translate-to="it">Traduci in italiano</a></li>
-        <li><a data-translate-to="es">Traducir al español</a></li>
-        <li><a data-translate-to="trump">Speak in Trumpese</a></li>
+				<li><a href="#">HELP</a></li>
+				<li><a href="#">RESOURCES</a></li>
+				<li><a href="#">SOMETHING</a></li>
+				<li><a href="#">MESSAGE YOUR INSTRUCTOR</a></li>
 			</ul>
 			</li>
 		</ul>
@@ -137,7 +125,7 @@ navigation</span> Menu
 <div class="modal-content menu-modal">
 <div class="modal-header"><button type="button" class="close"
 data-dismiss="modal">×</button>
-<h4 class="modal-title section-heading-2">Course Sections</h4>
+<h4 class="modal-title section-heading-2" data-i18n="global.menu.course-sections">Course Sections</h4>
 </div>
 <div class="modal-body">
 <ul class="list-style-none">
@@ -161,11 +149,11 @@ Introduction</a></li>
 <li style="list-style: none; display: inline">
 <h2 class="section-header"></h2>
 </li>
-<li><a role="button" data-nav="page5">Conclusion</a></li>
+<li><a role="button" data-nav="page5" data-i18n="global.menu.conclusion">Conclusion</a></li>
 </ul>
 </div>
 <div class="modal-footer"><button type="button" class=
-"btn btn-default btn-lg" data-dismiss="modal">Close</button></div>
+"btn btn-default btn-lg" data-dismiss="modal" data-i18n="global.close">Close</button></div>
 </div>
 </div>
 </div>
@@ -189,7 +177,7 @@ data-dismiss="modal">×</button>
 </ul>
 </div>
 <div class="modal-footer"><button type="button" class=
-"btn btn-default" data-dismiss="modal">Close</button></div>
+"btn btn-default" data-dismiss="modal" data-i18n="global.close">Close</button></div>
 </div>
 </div>
 </div>

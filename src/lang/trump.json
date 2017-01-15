@@ -1,17 +1,28 @@
 {
   "global": {
-    "menu-where-downloadable-resources-live": "This is where downloadable resources will live for each course.",
+    "menu-where-downloadable-resources-live": "This is where you get rid of Trump.",
+    "close": "Close",
+    "continue-btn": "cunt in you",
     "menu": {
-      "introduction": "The Art of the Deal",
-      "purpose": "From a small family loan to the White House",
-      "contribute": "Bow to the Trumps"
+      "course-sections": "Course Sexshuns",
+      "sections-short": "Sexshuns",
+      "resources-short": "Rezurces",
+      "menu": "Menu",
+      "top": "Top",
+      "toggle-navigation": "Tickle Navigation",
+      "introduction": "Introduction to TRUMP",
+      "purpose": "Purpose of TRUMP",
+      "contribute": "Contribute to TRUMP",
+      "conclusion": "Conclusion"
     }
   },
   "introduction": {
     "boysenberry-introduction": "You're Fired.",
     "algorithm-introduction": "All of the women on The Apprentice flirted with me - consciously or unconsciously. That's to be expected.",
-
-    "continue-btn": "Crooked Hillary"
+    "full-width-column": "This is a full width **column**, all 12 columns. We ***should*** use this one when we need to make a callout of a greater width.",
+    "review-this-flowchart": "Take a minute to review this flow chart. We will cover the specific elements next.",
+    "next-answer-review-question": "Let's put Crooked Hillary in Jail for the rest of her life.",
+    "continue-btn": "JAIL 4 HILLARY"
   },
   "purpose": {
 

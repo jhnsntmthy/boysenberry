@@ -21,6 +21,19 @@ const babelify = require('babelify'); // eslint-disable-line
 const assign = require('lodash.assign');
 const postcss = require('gulp-postcss');
 const browserSync = require('browser-sync');
+const exec = require('child_process').exec;
+
+const shell = function(command_str, cb) {
+  exec(command_str, function (err, stdout, stderr) {
+    console.log(stdout);
+    console.log(stderr);
+    cb(err);
+  });
+};
+
+gulp.task('wat', function (cb) {
+  shell('echo "WAT"', cb);
+});
 
 const distpath = 'dist';
 

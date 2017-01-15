@@ -1,0 +1,28 @@
+{
+  "global": {
+    "menu-where-downloadable-resources-live": "This is where downloadable resources will live for each course.",
+    "menu": {
+      "introduction": "The Art of the Deal",
+      "purpose": "From a small family loan to the White House",
+      "contribute": "Bow to the Trumps"
+    }
+  },
+  "introduction": {
+    "boysenberry-introduction": "You're Fired.",
+    "algorithm-introduction": "All of the women on The Apprentice flirted with me - consciously or unconsciously. That's to be expected.",
+
+    "continue-btn": "Crooked Hillary"
+  },
+  "purpose": {
+
+  },
+  "contribute": {
+
+  },
+  "404": {
+
+  },
+  "500": {
+
+  }
+}

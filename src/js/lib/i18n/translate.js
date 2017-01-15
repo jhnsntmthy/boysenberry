@@ -13,20 +13,23 @@ let current_locale = '';
 const setLocale = locale => (current_locale = locale);
 const getLocale = () => current_locale;
 
+const getTranslatedText = (locale_json, key = '') =>
+  key.split('.').reduce((o, i) => o[i], locale_json);
+
+
 const translate = (element) => {
   const $el = $(element);
   const locale = translations[current_locale];
   if (locale === undefined) {
-    return; // we are running too early
+    return; // we are running too early before languages are setup
   }
-  const lang_key = $el.attr('data-i18n');
-  const translatedText = locale[lang_key];
+  const translatedText = getTranslatedText(locale, $el.attr('data-i18n'));
   if (translatedText !== undefined) {
     $el
       .html(marked(translatedText))
       .attr('translated', locale);
   } else {
-    console.error('translation failed', element, current_locale, locale, lang_key, translatedText);
+    console.error('translation failed', element, current_locale, locale, $el.attr('data-i18n'), translatedText);
   }
 };
 

@@ -12,7 +12,6 @@ const sections_order = {};
 $(document).on('section::loaded', (e, slug, order, body) => {
   sections_prefetched[slug] = body;
   sections_order[order] = slug;
-  console.log('sections:', sections_order, sections_prefetched);
 });
 
 

@@ -1,0 +1,28 @@
+{
+  "global": {
+    "menu-where-downloadable-resources-live": "This is where downloadable resources will live for each course.",
+    "menu": {
+      "introduction": "Introduction to Boysenberry",
+      "purpose": "Purpose of Boysenberry",
+      "contribute": "Contribute to Boysenberry"
+    }
+  },
+  "introduction": {
+    "boysenberry-introduction": "Boysenberry.",
+    "algorithm-introduction": "***const*** age = (x) ***=>*** x ***>=*** 40",
+
+    "continue-btn": "Read the Purpose"
+  },
+  "purpose": {
+
+  },
+  "contribute": {
+
+  },
+  "404": {
+
+  },
+  "500": {
+
+  }
+}

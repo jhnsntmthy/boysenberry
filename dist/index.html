@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content=
+  "width=device-width, initial-scale=1">
+  <meta name="description" content="Boysenberry - a JAMstack builder for xAPI course content">
+  <meta name="author" content="Timothy Johnson">
+  <title>Boysenberry</title>
+  <!-- Bootstrap Core CSS -->
+
+  <link href="app.css" rel="stylesheet">
+
+  <link rel="icon" type="image/png" href="img/favicon/favicon-96x96.png" sizes="96x96" />
+
+	<link rel="apple-touch-icon" href="img/favicon/icon-192x192.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-192x192.png">
+
+	<link rel="manifest" href="/manifest.json">
+
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-title" content="TimoJojo">
+
+
+</head>
+<body id='root'>
+
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+<div class="container-fluid">
+<!-- Brand and toggle get grouped for better mobile display -->
+<div class="navbar-header page-scroll"><button type="button" class=
+"navbar-toggle" data-toggle="collapse" data-target=
+"#bs-example-navbar-collapse-1"><span class="sr-only">Toggle
+navigation</span> Menu</button></div>
+<!-- Collect the nav links, forms, and other content for toggling -->
+<div class="collapse navbar-collapse" id=
+"bs-example-navbar-collapse-1"><a class="nav-logo">&nbsp;</a>
+<ul class="nav navbar-nav navbar-right">
+<li><a data-toggle="modal" data-target="#menu">Sections</a></li>
+<li><a data-toggle="modal" data-target="#resources">Resources</a></li>
+<li><a class="click-toggle-menu">MENU</a></li>
+<li><a id="scoll-to-top">Top</a></li>
+</ul>
+</div>
+<!-- /.navbar-collapse --></div>
+<!-- /.container --></nav>
+
+
+<div class="overlay">
+	<div class="wrap">
+		<ul class="wrap-nav">
+			<li><a href="#"data-nav="bio_timo_jojo">About</a>
+			<ul>
+				<li><a href="#" data-nav="contact_timo_jojo">About Company</a></li>
+				<li><a href="#" data-nav="trump">Designers</a></li>
+				<li><a href="#">Developers</a></li>
+				<li><a href="#" data-nav="trump">Pets</a></li>
+			</ul>
+			</li>
+			<li><a href="#">Services</a>
+			<ul>
+				<li><a href="https://www.google.com/">Web Design</a></li>
+				<li><a href="#">Development</a></li>
+				<li><a href="#">Apps</a></li>
+				<li><a href="#">Graphic design</a></li>
+				<li><a href="#">Branding</a></li>
+			</ul>
+			</li>
+			<li><a href="#">Translate</a>
+			<ul>
+        <li><a data-translate-to="en">Translate to English</a></li>
+        <li><a data-translate-to="fr">Traduire en français</a></li>
+        <li><a data-translate-to="de">Übersetzen auf Deutsch</a></li>
+        <li><a data-translate-to="be">Перавесці на беларускай мове</a></li>
+        <li><a data-translate-to="it">Traduci in italiano</a></li>
+        <li><a data-translate-to="es">Traducir al español</a></li>
+        <li><a data-translate-to="trump">Speak in Trumpese</a></li>
+			</ul>
+			</li>
+		</ul>
+	</div>
+</div>
+
+
+<!--             _             _
+                | |           | |
+  ___ ___  _ __ | |_ ___ _ __ | |_
+ / __/ _ \| '_ \| __/ _ \ '_ \| __|
+| (_| (_) | | | | ||  __/ | | | |_
+ \___\___/|_| |_|\__\___|_| |_|\__|
+
+ -->
+<div id="content">
+</div>
+<!-- Content Container End -->
+
+
+<hr>
+<!-- Footer -->
+<footer>
+<div class="container">
+<div class="row">
+<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+<p class="copyright text-muted">&copy; Copyright 20x6 - timojojo</p>
+</div>
+</div>
+</div>
+</footer>
+<!-- footer end -->
+<!-- Menu Modal -->
+<div id="menu" class="modal fade" role="dialog">
+<div class="modal-dialog modal-lg"><!-- Modal content-->
+<div class="modal-content menu-modal">
+<div class="modal-header"><button type="button" class="close"
+data-dismiss="modal">×</button>
+<h4 class="modal-title section-heading-2">Course Sections</h4>
+</div>
+<div class="modal-body">
+<ul class="list-style-none">
+<li style="list-style: none; display: inline">
+<h2 class="section-header"></h2>
+</li>
+<li><a role="button" data-nav="introduction" data-i18n="global.menu.introduction">Course
+Introduction</a></li>
+<li style="list-style: none; display: inline">
+<h2 class="section-header"></h2>
+</li>
+<li><a role="button" data-nav="purpose" data-i18n="global.menu.purpose">Purpose</a></li>
+<li style="list-style: none; display: inline">
+<h2 class="section-header"></h2>
+</li>
+<li><a role="button" data-nav="contribute" data-i18n="global.menu.contribute">Contribute</a></li>
+<li style="list-style: none; display: inline">
+<h2 class="section-header"></h2>
+</li>
+<li><a role="button" data-nav="pageunknown">Review Question 2</a></li>
+<li style="list-style: none; display: inline">
+<h2 class="section-header"></h2>
+</li>
+<li><a role="button" data-nav="page5">Conclusion</a></li>
+</ul>
+</div>
+<div class="modal-footer"><button type="button" class=
+"btn btn-default btn-lg" data-dismiss="modal">Close</button></div>
+</div>
+</div>
+</div>
+<!-- Resources Modal -->
+<div id="resources" class="modal fade" role="dialog">
+<div class="modal-dialog modal-lg"><!-- Modal content-->
+<div class="modal-content learn-more-modal">
+<div class="modal-header"><button type="button" class="close"
+data-dismiss="modal">×</button>
+<h4 class="modal-title section-heading-2" data-i18n="global.menu-where-downloadable-resources-live">This is where downloadable resources will live for each course.</h4>
+</div>
+<div class="modal-body">
+<ul>
+  <li><a role="button" data-translate-to="en">Translate to English</a></li>
+  <li><a role="button" data-translate-to="fr">Traduire en français</a></li>
+  <li><a role="button" data-translate-to="de">Übersetzen auf Deutsch</a></li>
+  <li><a role="button" data-translate-to="be">Перавесці на беларускай мове</a></li>
+  <li><a role="button" data-translate-to="it">Traduci in italiano</a></li>
+  <li><a role="button" data-translate-to="es">Traducir al español</a></li>
+  <li><a role="button" data-translate-to="trump">Speak in Trumpese</a></li>
+</ul>
+</div>
+<div class="modal-footer"><button type="button" class=
+"btn btn-default" data-dismiss="modal">Close</button></div>
+</div>
+</div>
+</div>
+
+  <script>
+    var scripts = ['app.js']; // script for all users
+
+    var newBrowser = (
+      'fetch' in window &&
+      'Promise' in window &&
+      'assign' in Object &&
+      'keys' in Object
+    );
+
+    if (!newBrowser) {
+      scripts.unshift('polyfills.js'); // script for the less fortunate
+    }
+
+    scripts.forEach(function(src) {
+      var scriptEl = document.createElement('script');
+      scriptEl.src = src;
+      scriptEl.async = false;
+      document.head.appendChild(scriptEl);
+    });
+  </script>
+</body>
+</html>

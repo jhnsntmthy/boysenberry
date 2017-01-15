@@ -1,7 +1,7 @@
 {
   "name": "boysenberry",
   "version": "0.0.1",
-  "description": "### What is this repository for? ###",
+  "description": "A JAMstack repository for building single-page websites and xAPI courses",
   "main": "src/js/index.js",
   "config": {
     "buildpath": "dist"
